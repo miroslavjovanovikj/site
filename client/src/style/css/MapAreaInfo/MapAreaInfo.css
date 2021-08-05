@@ -1,0 +1,72 @@
+.imgMapArea{
+    background-image: url('../../css/MapAreaInfo/US-Map_04.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+margin-top: 20px;
+
+}
+
+@media screen and (max-width: 1050px) {
+    .imgMapArea{
+        background-image: url('../../css/MapAreaInfo/US-Map_medium.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .imgMapArea{
+        background-image: url('../../css/MapAreaInfo/US-Map_small.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 600px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .imgMapArea{
+        background-image: url('../../css/MapAreaInfo/US-Map_xsmall.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 10px;
+margin-bottom: 0;
+height: 200px;
+    }
+}
+.arreaTitle{
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    margin-top: 50px;
+    color:rgb(73, 69, 69);
+}
+.infoWikkly{
+    margin-top: 40px;
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#df1f26;
+    font-weight: 600;
+}
+.infoBased{
+    margin-top: 100px;
+    font-family: 'Teko', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#012d74;
+    font-weight: 600;
+}
+i.fa-circle.Weekly{
+    color:#df1f26;
+    font-size: 32px;
+}
+i.fa-circle.Desired{
+    color:#012d74;
+    font-size: 32px;
+}

@@ -1,0 +1,152 @@
+.carrerItemT{
+    padding-top: 60px;
+    font-family: 'Teko', sans-serif;
+}
+.carrerTextPage{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    padding: 30px;
+    padding-top: 20px;
+    color: rgb(73, 75, 75);
+}
+@media screen and (max-width: 1050px) {
+    .carrerTextPage{
+        font-family: 'PT Sans', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 39px;
+        color: rgb(73, 75, 75);
+    }
+}
+@media screen and (max-width: 750px) {
+    .carrerTextPage{
+        font-family: 'PT Sans', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 32px;
+        color: rgb(73, 75, 75);
+    }
+}
+@media screen and (max-width: 520px) {
+    .carrerTextPage{
+        font-family: 'PT Sans', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 22px;
+        color: rgb(73, 75, 75);
+    }
+}
+.imgMapAreaCarrer{
+    background-image: url('../../css/MapAreaInfo/US-Map_medium.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 500px;
+}
+.arreaTitleCarrer{
+    padding-top: 90px;
+    font-size: 36px;
+    font-family: 'Teko', sans-serif;
+}
+.infoBasedCarrer{
+    font-size: 22px;
+    font-family: 'Teko', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:#012d74;
+    font-weight: 600;
+}  
+
+@media screen and (max-width: 1050px) {
+    .imgMapAreaCarrer{
+        background-image: url('../../css/MapAreaInfo/US-Map_medium.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        height: 400px;
+    }
+    .infoBasedCarrer{
+        font-size: 22px;
+        font-family: 'Teko', sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color:#012d74;
+        font-weight: 600;
+    }  
+    .arreaTitleCarrer{
+        font-size: 36px;
+        font-family: 'Teko', sans-serif;
+    } 
+}
+@media screen and (max-width: 750px) {
+    .imgMapAreaCarrer{
+        background-image: url('../../css/MapAreaInfo/US-Map_small.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 300px;
+    }
+    .infoBasedCarrer{
+        font-size: 22px;
+        font-family: 'Teko', sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color:#012d74;
+        font-weight: 600;
+    }
+    .arreaTitleCarrer{
+        font-size: 36px;
+        font-family: 'Teko', sans-serif;
+    }
+}
+@media screen and (max-width: 520px) {
+    .imgMapAreaCarrer{
+        background-image: url('../../css/MapAreaInfo/US-Map_xsmall.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 10px;
+margin-bottom: 0;
+height: 200px;
+    }
+    .arreaTitleCarrer{
+        font-size: 36px;
+        font-family: 'Teko', sans-serif;
+    }
+    .infoBasedCarrer{
+        font-size: 22px;
+        font-family: 'Teko', sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color:#012d74;
+        font-weight: 600;
+    }
+}
+.CoverDivCarrer{
+    height: 440px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./road-2.webp);
+  }
+.CoverDivGlassCarrer{
+  top:0;
+  left: 0;
+  height: 440px;
+  background-color:rgba(0,0,0,0.6);
+  position: relative;
+  font-size: 33px;
+  color:rgba(221, 221, 221, 0.8);
+  font-weight: 700;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+  padding-top: 170px
+}

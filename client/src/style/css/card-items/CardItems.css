@@ -1,0 +1,192 @@
+.underItemsContainer{
+  font-family: 'Teko', sans-serif;
+  width: 100%;
+  
+ 
+  
+}
+.truckImgOne{
+  color:#fffefd;
+  font-weight: 500;
+  text-shadow: 2px 2px hsl(240, 1%, 30%);
+  font-size: 43px;
+  text-transform: uppercase;
+  padding-top: 120px;
+  width:100%;
+  height:410px;
+  background-image: url('https://www.freightlinernorthwest.com/news/wp-content/uploads/az_road_sunset_hr-smaller-png-e1491944800933.png');
+  opacity: 0.9;
+  background-position: center;
+
+}
+ .truckImgOne:hover {
+    opacity: 1;
+    opacity: 1;
+    text-shadow: 2px 2px;
+    text-shadow: 2px 2px 4px #111111;
+}
+/* .truckImgOne:hover .moreText{
+  opacity:1;
+  display: block;
+  text-shadow: 2px 2px 4px #ecebeb;
+  animation-name: example;
+  animation-duration: 1s ;
+} */
+.truckImgTwo{
+  color:#fffefd;
+  font-weight: 500;
+  text-shadow: 2px 2px hsl(240, 1%, 30%);
+  font-size: 43px;
+  text-transform: uppercase;
+  width:100%;
+  padding-top: 120px;
+  height:410px;
+  background-color: #6DB3F2;
+  background-image: url('./Shaking\ Hands\ \(2\).jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+
+
+}
+.truckImgTwo:hover{
+  opacity: 1;
+  opacity: 1;
+  text-shadow: 2px 2px;
+  text-shadow: 2px 2px 4px #111111;
+
+}
+/* .truckImgTwo:hover .moreText{
+  opacity:1;
+  display: block;
+  text-shadow: 2px 2px 4px #ecebeb;
+  animation-name: example;
+  animation-duration: 1s ;
+} */
+.truckImgThree{
+  color:#fffefd;
+  font-weight: 500;
+  text-shadow: 2px 2px hsl(240, 1%, 30%);
+  font-size: 43px;
+  text-transform: uppercase;
+  width:100%;
+  padding-top: 120px;
+  height:410px;
+  /* background-image: url('https://c4.wallpaperflare.com/wallpaper/1001/623/686/trailer-truck-transportation-trailer-truck-wallpaper-preview.jpg'); */
+  background-image: url('https://media.baumpub.com/files/slides/locale_image/full/0191/47612_en_0f61d_50235_stock-safety-worker-holding-hardhat-1.jpg');
+  background-position: center;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  
+}
+
+.truckImgThree:hover{
+  opacity: 1;
+  opacity: 1;
+  text-shadow: 2px 2px;
+  text-shadow: 2px 2px 4px #111111;
+
+}
+/* .truckImgThree:hover .moreText {
+  opacity: 1;
+  display: block;
+  text-shadow: 2px 2px 4px #ecebeb;
+  animation-name: example;
+  animation-duration: 1s ;
+
+} */
+@media screen and (max-width: 1024px) {
+  .smartWayImg{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .smartWayImg{
+    width: 350px;
+  }
+}
+.moreText i.fas.fa-handshake{
+  position: absolute;
+  padding-top: 300px;
+}
+.truckImgFour{
+  color:#fffefd;
+  font-weight: 500;
+  text-shadow: 2px 2px hsl(240, 1%, 30%);
+  font-size: 43px;
+  text-transform: uppercase;
+  width:100%;
+  padding-top: 120px;
+  height:410px;
+  background-image: url('./Where-there-is-a-way-withMartijn.jpg');
+  background-position: center;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+
+}
+.truckImgFour:hover{
+     opacity: 1;
+     text-shadow: 2px 2px;
+     text-shadow: 2px 2px 4px #111111;
+}
+/* .truckImgFour:hover .moreText{
+  opacity:1;
+  display: block;
+  text-shadow: 2px 2px 4px #ecebeb;
+  animation-name: example;
+  animation-duration: 1s ;
+} */
+@keyframes example {
+ 
+  0%  {padding-top: 170px; opacity: 0; }
+  100%  {padding-top: 20px;text-shadow: 2px 2px 4px #fbfbfb;}
+
+}
+#CardColMargin{
+  padding-right: 0;
+  padding-left: 0;
+}
+i.iconsCard {
+  font-size: 85px;
+  padding-top: 35px;
+  color:#f8f9fa
+}
+ .moreText{
+   font-size: 22px;
+   padding: 20px;
+   text-align: center;
+   color:#f0f0f6e7;
+   text-shadow: none;
+   display: none;
+
+ 
+  text-shadow: 2px 2px hsl(240, 2%, 38%);
+ }
+
+ /* .truckImgFour{
+  color:#fffefd;
+  font-weight: 500;
+  text-shadow: 2px 2px hsl(240, 1%, 30%);
+  font-size: 43px;
+  text-transform: uppercase;
+  width:100%;
+  padding-top: 120px;
+  height:410px;
+  background-image: url('https://www.peterbilt.com/sites/default/files/2019-06/about_heritage.jpg');
+  background-position: center;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+}
+.truckImgFour:hover{
+     opacity: 1;
+   transition: opacity 2s ease-in-out;
+   -moz-transition: opacity 2s ease-in-out;
+   -webkit-transition: opacity 2s ease-in-out;
+}
+.truckImgFour:hover .moreText{
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -webkit-transition: opacity 2s ease-in-out;
+  display: block;
+} */

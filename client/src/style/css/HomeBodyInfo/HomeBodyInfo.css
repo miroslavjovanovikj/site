@@ -1,0 +1,65 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.AboutUsNote{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: rgb(92, 93, 94);
+  font-family: 'PT Sans', sans-serif;
+}
+.AboutUsText{
+    text-align: center;
+    padding: 33px;
+    font-size: 37px;
+    font-stretch:expanded;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .AboutUsTextParagraph{
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: normal;
+  color: rgb(50, 51, 51);
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.AboutUsTitle{
+    text-align: center;
+    padding: 33px;
+    font-size: 37px;
+    font-stretch:expanded;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.AboutUsh5{
+    padding-top: 70px;
+    color: #4a6e94;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+.ButtonStyle{
+    margin: 0 auto;
+}
+.contactButton {
+  color: inherit;
+  text-decoration: inherit;
+}
+.buttonAppl{
+  font-family: 'Teko', sans-serif;
+  width: 100%;
+  padding: 22px ;
+  background-color:#df1f26;;
+  color: white;
+}
+.buttonAppl:hover{
+  font-family: 'Teko', sans-serif;
+  width: 100%;
+  padding: 14px 95px;
+  background-color:#9e0207;
+  color: white;
+}

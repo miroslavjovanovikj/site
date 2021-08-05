@@ -1,0 +1,336 @@
+body html{
+  font-family: 'Teko', sans-serif;
+    height: 200px;
+    background-position: 0 Y;
+    overflow-X: hidden;
+    width: 100%;
+  
+  }
+
+.slideshow{
+  top:0;
+  left: 0;
+  height: 632px;
+  background-color:rgba(0,0,0,0.6);
+  color:rgba(221, 221, 221, 0.8);
+  font-weight: 700;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+}
+.slideshow li{
+  top:60px;
+  left: 0;
+  height: 641px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 0;
+  z-index: -1;
+  animation: imageAnimation 26s linear infinite;
+  
+}
+
+.slideshow li:nth-child(1){
+
+  background-image: url(../../../files/banner-photos/Wider-Banner_02_v1.webp );
+  height: 644px;
+  width: 100%;
+  position: absolute;
+left: 0;
+
+}
+.slideshow li:nth-child(2){
+  animation-delay: 5s;
+  background-image: url(../../../files/banner-photos/Wider-Banner_03_v2.webp);
+  height: 644px;
+  width: 100%;
+  position: absolute;
+left: 0;
+
+}
+.slideshow li:nth-child(3){
+  background-image: url(../../../files/banner-photos/Wider\ Banner_01_v2.webp);
+  animation-delay: 10s;
+  height: 644px;
+  width: 100%;
+  position: absolute;
+left: 0;
+
+}
+.slideshow li:nth-child(4){
+  background-image: url(../../../files/banner-photos/Wider-Banner_02_v1.png);
+  animation-delay: 15s;
+  height: 644px;
+  width: 100%;
+  position: absolute;
+left: 0;
+
+}
+.slideshow li:nth-child(5){
+  background-image: url(../../../files/banner-photos/Wider-banner-4.webp);
+  animation-delay: 20s;
+  height: 644px;
+  width: 100%;
+  position: absolute;
+left: 0;
+
+}
+@keyframes imageAnimation {
+  0%{ opacity:0;
+    animation-timing-function:ease-in;
+  }
+  10%{
+    opacity: 1;
+    animation-timing-function: ease-out;
+  }
+  20%{
+    opacity: 1;
+  }
+  30%{
+    opacity: 0;
+  }
+}
+
+
+
+.ittemText{
+  padding-top: 95px;
+  text-transform: uppercase;
+  font-size: 35px;
+  color:#FF304D;
+  font-family: 'Teko', sans-serif;
+}
+
+.Items{
+  padding: 50px;
+}
+.AboutUs{
+  color: rgba(44, 74, 107, 1);
+  font-family: 'Teko', sans-serif;
+  padding-bottom: 30px;
+}
+
+.AboutUsImg {
+height: 400px;
+width: 100%;
+}
+.AboutUsImg2 {
+  height: 375px;
+  width: 100%;
+  }
+.AboutUsText{
+  text-align: center;
+  padding: 33px;
+  font-size: 37px;
+  font-stretch:expanded;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.AboutUsNote{
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: rgb(92, 93, 94);
+}
+
+.ServicesDiv{
+  height: 270px;
+  background-color: rgb(89, 182, 187);
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width: 990px) {
+  .slideshow {
+    background-image: url('https://www.flotauto.com/wp-content/uploads/2020/09/4.jpg');
+    height: 440px;
+ 
+  }
+  .slideshow li{
+    background: none;
+  }
+  .slideshow li:nth-child(1){
+    background-image: none;
+  }
+  .slideshow li:nth-child(2){
+    background-image: none;
+  }
+  .slideshow li:nth-child(3){
+    background-image: none;
+  }
+  .slideshow li:nth-child(4){
+    background-image: none;
+  }
+  .slideshow li:nth-child(5){
+    background-image: none;
+  }
+}
+.ownerMessage{
+  padding-top: 123px;
+  font-size: 34px;
+}
+ .ApplyNow {
+  padding-top:3%;
+text-align: center;
+font-size: 33px;
+text-transform: uppercase;
+font-weight: 500;
+font-family: 'Teko', sans-serif;
+color:white;
+width: 720px;
+margin: 0 auto;
+}
+/* @media screen and (max-width: 1390px) {
+  .ApplyNow {
+    padding-top:90px;
+  text-align: center;
+  font-size: 33px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Teko', sans-serif;
+  color:white;
+  width: 720px;
+  margin: 0 auto;
+  }
+} */
+
+
+
+.appNow a:hover,.appNow a:active {
+  background-color:  hsl(24, 96%, 45%);
+}
+@media screen and (max-width: 940px) {
+  .ApplyNowPhone {
+    padding-top:122px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Teko', sans-serif;
+  color:rgb(252, 250, 250);
+  width: 100%;
+
+  }
+  .appNowPhone a:link, .appNowPhone a:visited {
+    background-color:  #df1f26;
+    color: white;
+    padding: 14px 31px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 49px;
+  }
+  
+  .appNowPhone a:hover,.appNowPhone a:active {
+    background-color:  #df1f25b2;
+  }
+}
+@media screen and (max-width: 380px) {
+
+  .ApplyNowPhone {
+    padding-top:122px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Teko', sans-serif;
+  color:rgb(252, 250, 250);
+  width: 220px;
+  margin: 0 auto;
+  }
+  .appNowPhone a:link, .appNowPhone a:visited {
+    background-color:   #df1f26;;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 49px;
+  }
+  
+  .appNowPhone a:hover,.appNowPhone a:active {
+    background-color:  hsl(24, 96%, 45%);
+  }
+}
+
+.fa-phone-alt.phoneIcon{
+  color:rgb(248, 242, 240);
+}
+/* .fas.fa-phone-alt.phoneIcon:hover{
+  color: rgba(83, 248, 7, 0.418);
+} */
+
+#slideset1 {height: 125px; position: relative}
+#slideset1 > * {
+  visibility: hidden; 
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  animation: 60s autoplay1 infinite
+}
+  @keyframes autoplay1 {
+    0% {
+      visibility: visible;
+      opacity: 1;
+    }
+    43.33% {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+  #slideset1 > *:nth-child(1) {
+    animation-delay: 0s;
+  }
+#slideset1 > *:nth-child(2) {
+  animation-delay: 20s;
+}
+#slideset1 > *:nth-child(3) {
+  animation-delay: 40s;
+}
+.buttonsSlider{
+  background-color: #4c7faf; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  width: 100%;
+  border:1px solid white;
+  border-top: 0;
+  font-family: 'Teko', sans-serif;
+}
+.buttonsSlider{
+  background-color: #4c7faf; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  width: 100%;
+  border:1px solid white;
+  border-top: 0;
+  font-family: 'Teko', sans-serif;
+  cursor: pointer;
+}
+div.col-lg-4.col-md-4.col-sm-12.col-12{
+  padding-left:0;
+  padding-right: 0;
+}

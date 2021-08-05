@@ -1,0 +1,150 @@
+div .Bottom{
+ padding: 120px 25px 120px 30px;
+ width: 100%;
+ color:white;
+ background-color: #101327;
+}
+.fa-map-marker-alt, .fa-phone-alt, .fa-envelope, .fa-clock{
+    font-size: 21px;
+    color:  #df1f26;;
+    margin-right: 4px;
+    
+}
+.FooterEnd{
+    border-top:  1px solid rgba(255, 252, 252, 0.2);
+    color:rgb(255, 255, 255);
+    background-color: #101327;
+    padding-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+ .bottomItems{
+     text-align: left;
+     font-size: 12px;
+     font-family: 'Montserrat', sans-serif;
+ }
+.adressBottom{
+  padding-left: 10px;
+}
+ .bottomLogo{
+     text-align: center;
+ }
+ .bottomLinks{
+     text-align: left;
+     font-weight: 700;
+     font-size: 17px;
+     padding-left: 24px;
+    
+ }
+.quickLinks, .reachUs{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 300;
+    border-bottom: 0.5px solid rgb(80, 77, 77);
+    padding-bottom: 12px;
+    text-align: center;
+}
+.appNow a:link, .appNow a:visited {
+    background-color:  #df1f26;
+    color: rgb(238, 241, 236);
+    padding: 9px;
+    text-align: center;
+    width: 220px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 29px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+  }
+  .appNow a:link:hover, .appNow a:visited:hover {
+    background-color:  #df1f259f;;
+    color:white;
+    padding: 9px;
+    text-align: center;
+    width: 220px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 29px;
+
+  }
+  .appNowCall a:link, .appNowCall a:visited {
+    background-color:  #df1f26;
+    color: rgb(238, 241, 236);
+    padding: 9px;
+    text-align: center;
+    width: 220px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 29px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+  }
+  .appNowCall a:link:hover, .appNowCall a:visited:hover {
+    background-color:  #df1f259f;;
+    color:white;
+    padding: 9px;
+    text-align: center;
+    width: 220px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 29px;
+
+  }
+  .content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider-wrapper {
+    font-size: 40px;
+    color:#aaa;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+p.navItem{
+  padding-left: 14px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.logoBottom{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+i.fab.fa-facebook-square{
+  font-size: 23px;
+  color:white;
+}
+i.fab.fa-instagram{
+  font-size: 23px;
+  color:white;
+}
+a {
+  text-decoration: none;
+  color:white;
+}

@@ -1,0 +1,65 @@
+.CoverDivShipper{
+    height: 440px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./carrerCoverWIder.webp);
+  }
+.CoverDivGlassShipper{
+  top:0;
+  left: 0;
+  height: 440px;
+  background-color:rgba(0,0,0,0.8);
+  position: relative;
+  font-size: 33px;
+  color:rgba(221, 221, 221, 0.8);
+  font-weight: 700;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+  padding-top: 170px
+}
+.shiperItemT{
+    padding-top: 60px;
+    font-family: 'Teko', sans-serif;
+}
+.logoCoverPhoto{
+    padding-top:30px;
+}
+.shippersText{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    padding: 30px;
+    padding-top: 20px;
+    color: rgb(73, 75, 75);
+    padding-bottom: 220px;
+}
+.logoShippers{
+    height: 50px;
+}
+@media screen and (max-width: 1050px) {
+    .shippersText{
+        font-family: 'PT Sans', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 39px;
+        color: rgb(73, 75, 75);
+    }
+}
+@media screen and (max-width: 750px) {
+    .shippersText{
+        font-family: 'PT Sans', sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 32px;
+        color: rgb(73, 75, 75);
+    }
+}
+@media screen and (max-width: 520px) {
+    .shippersText{
+        font-family: 'PT Sans', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 22px;
+        color: rgb(73, 75, 75);
+    }
+}

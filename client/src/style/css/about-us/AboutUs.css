@@ -1,0 +1,406 @@
+
+.AboutUsPhoto{
+  height: 440px;
+  width: 100%;
+  position: absolute;
+left: 0;
+}
+.AboutUsDiv{
+  top:60px;
+  left: 0;
+  height: 440px;
+  width: 100%;
+  position: relative;
+
+}
+.AboutDivGlass{
+  top:0;
+  left: 0;
+  height: 440px;
+  /* background-color:rgba(68, 69, 70, 0.7); */
+  background-color:rgba(0,0,0,0.6);
+  position: relative;
+  font-size: 33px;
+  color:rgba(221, 221, 221, 0.8);
+  font-weight: 700;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+
+}
+.AboutBodyPhoto{
+  width: 100%;
+  height: 430px;
+
+}
+
+.borderText{
+  border:1px solid black;
+
+}
+.AboutBodyText{
+  font-size: 23px;
+
+}
+.AboutUsContent{
+  margin-top: 89px;
+  padding-bottom: 60px;
+}
+.textOnImg{
+  padding-top: 80px;
+}
+
+
+.AboutUsPhotoDiv1 {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  height: 450px;
+  width: 100%;
+  position: relative;
+
+}
+.parent1{
+  width: 100%;
+ /* margin: 20px; */
+ height: 90%;
+ overflow: hidden;
+ position: relative;
+ /* float: left; */
+ display: inline-block;
+
+}
+
+.AboutUsPhotoDiv1:before {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./family.jpg");
+
+}
+
+/* .AboutUsText1 {
+  position: absolute;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(45, 45, 45, 0.57);
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  word-spacing: 3px;
+  margin-top: 120px;
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+  font-weight: normal;
+  height: 160px;
+  text-transform: uppercase;
+  padding: 22px;
+} */
+.titleAboutUs{
+
+  font-weight: 600;
+  font-family: 'Teko', sans-serif;
+  color:hsl(0, 0%, 62%);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+}
+.AboutUsPhotoDiv1:hover:before {
+  webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+
+}
+.AboutUsPhotoDiv2 {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  height: 450px;
+  width: 100%;
+  position: relative;
+
+}
+.parent2{
+  width: 100%;
+ /* margin: 20px; */
+ height: 90%;
+ overflow: hidden;
+ position: relative;
+ /* float: left; */
+ display: inline-block;
+
+}
+
+.AboutUsPhotoDiv2:before {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./customer-x.jpg");
+}
+.AboutUsPhotoDiv3:before {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./highway.jpg");
+
+}
+
+/* .AboutUsText2{
+  position: absolute;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(45, 45, 45, 0.57);
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  word-spacing: 3px;
+  margin-top: 120px;
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+  font-weight: normal;
+  height: 160px;
+  text-transform: uppercase;
+  padding: 22px;
+} */
+
+.AboutUsPhotoDiv2:hover:before {
+  webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+
+}
+.AboutUsPhotoDiv {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  height: 450px;
+  width: 100%;
+  position: relative;
+
+}
+.parent{
+  width: 100%;
+ /* margin: 20px; */
+ height: 90%;
+ overflow: hidden;
+ position: relative;
+ /* float: left; */
+ display: inline-block;
+
+}
+
+.AboutUsPhotoDiv:before {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("./good-results.jpg");
+
+}
+
+.AboutText, .AboutUsText2, .AboutUsText1, .AboutText3{
+  position: absolute;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(45, 45, 45, 0.57);
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  word-spacing: 3px;
+  /* margin-top: 120px; */
+  width: 100%;
+  /* margin-left: 15%; */
+  color: white;
+  font-weight: normal;
+  height: 100%;
+  text-transform: uppercase;
+  padding: 22px;
+  padding-top: 50%;;
+}
+/* .AboutText{
+  position: absolute;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(45, 45, 45, 0.57);
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  word-spacing: 3px;
+  margin-top: 120px;
+  width: 70%;
+  margin-left: 15%;
+  color: white;
+  font-weight: normal;
+  height: 160px;
+  text-transform: uppercase;
+  padding: 22px;
+} */
+
+.AboutUsPhotoDiv:hover:before {
+  webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+
+}
+.AboutUsPhotoDiv3:hover:before {
+  webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+
+}
+.info{
+  font-size: 1.6em;
+  color: rgb(33, 236, 22);
+  font-weight: 700;
+}
+.Materials{
+  background-size: cover;
+  background-position: center center;
+    background-image: url("./bg.png");
+    background-color:#171c39;
+margin-top: 50px;
+  width: 100%;
+  color:rgb(108, 105, 107);
+  padding-bottom: 190px;
+  padding-top: 190px;
+}
+.beamPhoto{
+  width: 90px;
+  height: 90px;
+}
+
+.materialsItem{
+ 
+  width:100%;
+
+  background-color: rgba(4, 3, 19, 0.72);
+  border:1px solid rgb(5, 1, 15);
+  margin-top: 20px;
+  text-align: center;
+  padding: 40px;
+  color:rgb(213, 213, 213);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+  /* border-radius: 50%; */
+
+
+}
+.materialRow{
+  padding-top: 35px;
+}
+
+.textUnderPhoto{
+  padding-left: 15px;
+  padding-top: 14px;
+  font-size: 25px;
+}
+.materialTitle{
+  font-size: 34px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  color:rgb(196, 198, 193);
+  font-family: 'Teko', sans-serif;
+}
+.aboutUsText{
+  padding: 40px;
+  padding-bottom: 80px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: normal;
+  color: rgb(92, 93, 94);
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+}
+.TitleStory{
+  font-size: 28px;
+  font-family: 'Teko', sans-serif;
+  color: rgba(44, 74, 107, 1);
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.MaterialsInfo{
+  padding: 40px;
+  padding-bottom: 40px;
+  font-size: 27px;
+ 
+  text-align: center;
+  font-weight: 100;
+  color: rgb(128, 128, 128);
+
+  font-family: 'PT Sans', sans-serif;
+}
+.aboutUsText{
+  padding-top: 0;
+  margin-top: 0;
+}
+.underText{
+  font-size: 9px;
+  padding: 8px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+div.colItemStyle{
+  padding-left: 3px;
+  padding-right: 3px;
+}

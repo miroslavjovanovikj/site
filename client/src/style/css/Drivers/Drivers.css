@@ -1,0 +1,250 @@
+
+
+  .CarrerPhoto{
+    height: 440px;
+    width: 100%;
+    position: absolute;
+  left: 0;
+  }
+  .CoverDiv{
+    height: 440px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./coverCarrer.webp");
+  }
+.CoverDivGlass{
+  top:0;
+  left: 0;
+  height: 440px;
+  background-color:rgba(0,0,0,0.8);
+  position: relative;
+  font-size: 33px;
+  color:rgba(221, 221, 221, 0.8);
+  font-weight: 700;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+  padding-top: 170px
+}
+.arrowDown{
+  margin-bottom: 45px;
+}
+.applyButton {
+  background-color: rgba(77, 156, 26, 0.69); /* Green */
+  border: none;
+  color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+  padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+.applyButton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.carrerText{
+
+  font-size:20px;
+  font-family: 'Teko', sans-serif;
+  text-align: justify;
+ 
+}
+.titleApply{
+  text-align: center;
+  font-size: 34px;
+  padding-top: 16px;
+}
+.formCarrer{
+  padding: 0;
+  height: 650px;
+}
+.firstForm{
+  margin-top: 10px;
+}
+.leftItemsApply{
+  text-align:right;
+}
+.carrerImg{
+  height: 650px;
+}
+.imgCarrer{
+  /* background-image: url('https://www.insidehighered.com/sites/default/server_files/media/aguilar%20right%20time%20right%20place_0.jpg'); */
+  background-image: url('https://cloudwadi.com/wp-content/uploads/2019/09/logistics-software.png');
+  height: 650px;
+  width: 100%;
+}
+
+.imgCarrer2{
+  /* background-image: url('https://www.insidehighered.com/sites/default/server_files/styles/large/public/media/asking%20for%20leadership.jpg?itok=vbPRSRwm'); */
+  background-image: url('https://damfis-sped.ba/wp-content/uploads/2020/11/sped13.jpg');
+  height: 650px;
+  width: 100%;
+}
+.closeButtonCarrer{
+  color: rgba(253, 253, 253, 0.911);
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #7c7e7c5b;
+  padding: 14px 26px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-bottom: 35px;
+  background-color:#df1f26;;
+}
+
+.titlesCarrer{
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.itemsApply{
+  font-size: 16px;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 700;
+}
+.applyHeaderPhoto{
+  background-image: url('./staticmap1.png');
+
+  height: 190px;
+  width: 100%;
+}
+button.applyNowCarrer{
+  width: 100%;
+  background: rgb(7, 7, 7);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 100%;
+}
+button.callNowCarrer{
+  width: 100%;
+
+  background:  #df1f26;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 100%;
+}
+div.col-lg-6.col-md-6.col-sm-6.col-6.applyNowCarrer{
+ 
+  padding-right: 0;
+  
+}
+div.col-lg-6.col-md-6.col-sm-6.col-6.callNowCarrer{
+ 
+  padding-left: 0;
+}
+.LogoCarrer{
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(216, 216, 216);
+}
+.descJob{
+  padding-top: 17px;
+  padding-bottom: 12px;
+  color:rgb(68, 66, 66);
+}
+.applyHeaderPhoto1{
+    background-image: url('./staticmap1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 190px;
+  width: 100%;
+}
+.titleApply1{
+  text-align: center;
+  font-size: 32px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+
+}
+/* div.col-lg-6.col-md-12.col-sm-12.col-12{
+  padding-right: 0;
+  padding-left: 0;
+} */
+i.fas.fa-angle-double-down{
+  font-size: 165px;
+}
+i.fas.fa-chevron-down{
+    font-size: 100px;
+    padding-bottom: 60px;
+    color:rgb(58, 58, 58);
+}
+.applyNowCarrerTitle{
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.myFirstApply{
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.imgApplyCarrer.col-lg-4.col-md-12.col-sm-12.col-12{
+  margin-bottom: 60px;
+}
+.paddingApplyDesc{
+  padding-left: 10px;
+  padding-right: 10px;
+  height:210px;
+  font-size: 19px;
+  font-family: 'PT Sans', sans-serif;
+}
+.logoApply{
+  height: 100px;
+  width: 100px;
+}
+.myFirstApply{
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 990px) {
+  .myFirstApply{
+    width:450px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .myFirstApply{
+    width:340px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .myFirstApply{
+    width:290px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+}
+
+.titleCarrerForm{
+padding-top: 9px;
+  font-family: 'Teko', sans-serif;
+  font-size: 22px;
+  color: rgb(92, 90, 90);
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width: 710px) {
+  i.fas.fa-angle-double-down{
+   font-size: 80px;
+  }
+  .CoverDivGlass{
+    font-size: 22px;
+  }
+}
+    /* {<Col md={{ span: 8, offset: 2 }}>} */

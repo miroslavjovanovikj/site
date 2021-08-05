@@ -1,0 +1,63 @@
+body{
+  font-family: 'Teko', sans-serif;
+}
+@media screen and (max-width: 766px) {
+  div.FooterDiv {
+    padding: 0;
+   text-align:center;
+   background-color: #131731;
+   color:white;
+   font-family: 'Teko', sans-serif;
+ }
+ .titleFooter{
+  padding-top: 120px;
+  background-color:  #131731;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+}
+.FooterDiv{
+  padding-top: 90px;
+  text-align:center;
+  background-color: #131731;
+  color:white;
+  font-family: 'Teko', sans-serif;
+  height: 700px;
+}
+
+.bacgroundCover{
+  background-color: #131731;
+}
+.itemsFrame{
+  width:100%;
+  margin:0 auto;
+  height: 81%;
+  margin-top: 35px;
+  border:0.5px solid rgb(86, 86, 87);
+margin:none;
+padding: 18px;
+padding-top: 110px;
+font-family: 'Montserrat', sans-serif;
+color:rgb(197, 197, 197);
+}
+.FooterTitle{
+  padding: 25px;
+  background-color: rgb(4, 2, 43);
+  color: white;
+  font-family: 'Teko', sans-serif;
+}
+hr{
+    color: white;
+    background-color: white;
+    height: .5;
+    border-color : white;
+    font-family: 'Teko', sans-serif;
+}
+
+.FooterTitle {
+  margin: 0;
+}
+.titleFooter{
+  padding-bottom:25px;
+  padding-top: 60px;
+}
